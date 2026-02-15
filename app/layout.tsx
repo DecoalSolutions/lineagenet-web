@@ -9,6 +9,9 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "LineageNet",
   description: "Lineage & Network Tracking Simplified",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
