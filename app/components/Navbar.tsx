@@ -12,7 +12,7 @@ export default function Navbar() {
         border-b border-white/10
         flex items-center justify-between
         px-6 md:px-10
-        py-4
+        py-3 md:py-4/
       "
     >
       {/* LEFT — Logo Icon */}
@@ -20,8 +20,9 @@ export default function Navbar() {
         <Image
           src="/logo-icon.png"
           alt="LineageNet Logo"
-          width={40}
-          height={40}
+          width={36}
+          height={36}
+          className="md:w-[48px] md:h-[48px]"
           priority
         />
       </div>
@@ -55,8 +56,8 @@ export default function Navbar() {
           bg-teal-500
           hover:bg-teal-600
           text-white
-          px-5 md:px-6
-          py-2
+          px-4 md:px-6
+          py-1.5 md:py-2
           rounded-xl
           text-sm md:text-base
           transition duration-300

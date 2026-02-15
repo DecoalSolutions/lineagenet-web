@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative text-center py-32 px-6 text-white">
+    <section className="relative text-center pt-44 pb-28 px-6 text-white md:pt-32 md:pb-32">
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
