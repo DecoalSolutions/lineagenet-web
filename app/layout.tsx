@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Playfair_Display } from "next/font/google";
+import { AuthProvider } from "@/context/AuthContext";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -9,14 +10,7 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "LineageNet",
   description: "Lineage & Network Tracking Simplified",
-  icons: {
-    icon: "/favicon.ico",
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
@@ -27,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${playfair.className} bg-[#0B1F1E] text-white`}>
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );
