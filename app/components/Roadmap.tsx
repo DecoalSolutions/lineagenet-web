@@ -4,43 +4,43 @@ import { motion } from "framer-motion";
 
 const phases = [
   {
-    title: "Phase 1 – Web App: Lineage Tracking",
+    title: "Build Your Lineage (Web Experience)",
     points: [
-      "Interactive lineage canvas",
-      "Add & manage family members",
-      "Define structured relationships",
-      "Save & reload lineage data",
-      "Graph-based relationship engine foundation",
+      "Create an interactive family tree that grows with your family",
+      "Add and manage family members with detailed profiles",
+      "Define clear relationships across generations",
+      "Save, update, and revisit your lineage anytime",
+      "Visualize how every connection fits into your bigger family story",
     ],
   },
   {
-    title: "Phase 2 – Network Tracking",
+    title: "Expand Into Meaningful Networks",
     points: [
       "Connect with other LineageNet users",
-      "Secure lineage sharing",
-      "Merge related family trees",
-      "Cross-family relationship visualization",
-      "Expansion into relationship intelligence",
+      "Share your lineage securely with trusted relatives",
+      "Link related family trees when families connect",
+      "Visualize relationships across families and communities",
+      "Friends, Business Connections, Social circles all at one place",
     ],
   },
   {
-    title: "Phase 3 – Android Application",
+    title: "Access Anywhere - Android Experience (Coming Soon)",
     points: [
-      "Flutter-based Android app",
-      "Mobile-first lineage building",
-      "Offline-first storage",
-      "Cloud synchronization",
-      "Optimized large-tree performance",
+      "Build and manage your lineage on the go",
+      "Add connections instantly from your contacts",
+      "Stay synced across devices",
+      "Easily update information as life evolves",
+      "Experience a smooth, mobile-friendly design",
     ],
   },
   {
-    title: "Phase 4 – iOS Application",
+    title: "Seamless iOS Experience (Coming Soon)",
     points: [
-      "Full iOS support",
-      "Secure mobile authentication",
-      "Seamless cross-platform experience",
-      "Complete lineage & network tracking",
-      "Unified digital relationship infrastructure",
+      "Full support for iPhone and iPad users",
+      "Secure access to your lineage and network",
+      "Effortless cross-device continuity",
+      "Manage both family and professional networks in one place",
+      "A unified experience built for long-term connection tracking",
     ],
   },
 ];
@@ -58,10 +58,10 @@ export default function Roadmap() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl font-bold text-teal-400 mb-4">
-            Product Roadmap
+            What we want to offer?
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Built in structured phases to ensure scalability and long-term innovation.
+            A relationship intelligence system for families and communities.
           </p>
         </motion.div>
 

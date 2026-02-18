@@ -25,20 +25,22 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-            LineageNet is a digital platform that enables users to build a
-            complete and structured view of their lineage while laying the
-            foundation for network connectivity across users.
+            LineageNet is a modern digital space designed to help you preserve, organize, and understand your family’s story - while also managing the relationships that shape your present and future.  <br />
+            At its core, LineageNet allows you to build an interactive family tree that grows with your family across generations. It helps you visualize connections, document important details, and create a structured view of your lineage in one place.
+          </p>
+          
+          <p className="text-gray-200 text-lg mb-6 leading-relaxed">
+            But relationships don’t stop at family.
           </p>
 
-          <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-            The platform begins with a powerful interactive family tree
-            system and evolves into a relationship intelligence platform.
-          </p>
+          <p className="text-gray-200 text-lg mb-6 leading-relaxed">  
+            LineageNet also enables you to manage your broader network — including friends, business connections, collaborators, and community circles. You can organize people into meaningful groups, track how they connect, and build structured relationship networks that go beyond traditional social platforms. <br />
+            <br />
+            Whether you’re preserving heritage, strengthening personal bonds, or building professional circles, LineageNet brings clarity and structure to the relationships that matter most.
+          </p>  
+          
 
-          <p className="text-gray-400 text-lg leading-relaxed">
-            Designed in structured phases across web and mobile,
-            LineageNet ensures scalability, security, and generational continuity.
-          </p>
+          
 
         </motion.div>
       </div>

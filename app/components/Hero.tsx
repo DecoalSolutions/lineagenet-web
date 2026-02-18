@@ -48,8 +48,9 @@ export default function Hero() {
 
         {/* Subtext */}
         <p className="text-gray-300 mb-10 text-lg">
-          LineageNet enables structured lineage tracking today and 
-          intelligent network expansion tomorrow.
+          LineageNet empowers you to document your family history,
+          understand generational connections, and build a meaningful
+          relationship network that grows with time.
         </p>
 
         {/* CTA */}
